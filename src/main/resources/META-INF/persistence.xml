@@ -5,9 +5,12 @@
     <persistence-unit name="jpashop">
         <!-- 순수 JPA 학습시 gradle 환경의 경우 아래와 같이 엔티티 추가해야 함-->
         <class>com.example.domain.Member</class>
-        <class>com.example.domain.Item</class>
         <class>com.example.domain.Order</class>
+        <class>com.example.domain.Delivery</class>
         <class>com.example.domain.OrderItem</class>
+        <class>com.example.domain.Item</class>
+        <!--<class>com.example.domain.CategoryItem</class>-->
+        <class>com.example.domain.Category</class>
 
         <properties>
             <!-- 필수 속성 -->
