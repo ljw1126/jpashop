@@ -9,6 +9,9 @@
         <class>com.example.domain.Delivery</class>
         <class>com.example.domain.OrderItem</class>
         <class>com.example.domain.Item</class>
+        <class>com.example.domain.Album</class>
+        <class>com.example.domain.Book</class>
+        <class>com.example.domain.Movie</class>
         <!--<class>com.example.domain.CategoryItem</class>-->
         <class>com.example.domain.Category</class>
 

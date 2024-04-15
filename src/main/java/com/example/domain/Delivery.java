@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
 
 @Entity
-public class Delivery {
+public class Delivery extends BaseTimeEntity{
 
     @Id
     @GeneratedValue

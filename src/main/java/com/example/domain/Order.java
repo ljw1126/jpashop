@@ -20,7 +20,7 @@ import java.util.List;
 @Entity
 @Table(name = "orders")
 @Getter
-public class Order {
+public class Order extends BaseTimeEntity{
 
     @Id
     @GeneratedValue

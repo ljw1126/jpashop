@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Category {
+public class Category extends BaseTimeEntity{
 
     @Id
     @GeneratedValue
