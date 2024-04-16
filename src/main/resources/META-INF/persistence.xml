@@ -14,6 +14,7 @@
         <class>com.example.domain.Movie</class>
         <!--<class>com.example.domain.CategoryItem</class>-->
         <class>com.example.domain.Category</class>
+        <class>com.example.domain.AddressEntity</class>
 
         <properties>
             <!-- 필수 속성 -->
